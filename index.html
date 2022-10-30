@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
         <meta charset="utf-8">
         <title>Portfolio</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -56,7 +57,7 @@
                         <a href="#about" class="nav-item nav-link">About</a>
 
                         <a href="#experience" class="nav-item nav-link">My Timeline</a>
-                        <a href="#price" class="nav-item nav-link">Study Plan</a>
+                        <a href="#price" class="nav-item nav-link">Certifications</a>
                         <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
                         <a href="#review" class="nav-item nav-link">My credo</a>
                         <a href="#team" class="nav-item nav-link">Projects</a>
@@ -115,9 +116,9 @@
 
                             </div>
                             <div class="about-text">
-                    <h3>CRM Dynamics specialist &<BR> Studying Business Administration in Information Systems</h3>                                
-                    
-                    
+                    <h3>CRM Dynamics specialist &<BR> Studying Business Administration in Information Systems</h3>
+
+
                     <p>professional in Microsoft applications and especially in Excel.<br>
 
                         I have a great bond to the world of data and believe it is a very powerful tool.<br>
@@ -129,7 +130,18 @@
                         <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Roei Redler</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">September 1996</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Undergraduate student</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">0.5 Years</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary"><script>
+                        const pastDate = '2022-02-01'
+
+                        const period = new Date(new Date().getTime() - new Date(pastDate).getTime())
+                        const years = period.getFullYear() - 1970 // at 1970 the date calendar starts
+                        const months = period.getMonth()
+
+
+
+                        document.write(years,' years ',' + ', months,' months');
+
+                        </script></span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+972 054 5344 869</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">roei13@gmail.com</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Central, Israel</span></h6></div>
@@ -267,8 +279,8 @@
                             </p>
                         </div>
                     </div>
-                    
-                    
+
+
                     <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
                         <div class="timeline-text">
                             <div class="timeline-date">2014 - 2015</div>
@@ -279,7 +291,7 @@
                             </p>
                         </div>
                     </div>
-                    
+
                      <div class="timeline-item left wow slideInLeftt" data-wow-delay="0.1s">
                         <div class="timeline-text">
                             <div class="timeline-date">2015 - 2018</div>
@@ -289,8 +301,8 @@
                                 Air defense batteries are deployed at various sites and in coordination with Air Force aircraft and protect the country’s citizens from air threats, such as rockets, missiles and even fighter jets. The lineup fighters are embedded in the battery according to the defense system or weapon they were designed to operate.
                             </p>
                         </div>
-                    </div>                   
-                    
+                    </div>
+
                     <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
                         <div class="timeline-text">
                             <div class="timeline-date">2019 - 2022</div>
@@ -311,29 +323,33 @@
         <div class="price" id="price">
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>Study Plan</p>
-                    <h2>What's next?</h2>
+                    <p>Badges</p>
+                    <h2>Certifications</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="price-item">
                             <div class="price-header">
                                 <div class="price-title">
-                                    <h2>Trimester 1</h2>
+                                    <h2>Power Platform Fundamentals </h2>
                                 </div>
                                 <div class="price-prices">
-                                    <h2><span>November-January</span></h2>
+                                    <h2>
+                                      <span>PL-900</span>
+                                    </h2>
                                 </div>
                             </div>
                             <div class="price-body">
                                 <div class="price-description">
                                     <ul>
-                                        <li>Done</li>
+                                        <li><img src="img\CERT-Fundamentals-Power-Platform.png" height=200rem></li>
+                                        <li><a class="fcc-btn" href="https://www.credly.com/badges/2275f2de-edf8-44d6-9573-cd762d788e63/linked_in_profile" target="_blank">Show credential</a></li><br>
+                                        <li><a class="fcc-btn2" href="https://learn.microsoft.com/en-us/certifications/power-platform-fundamentals/" target="_blank">About</a></li>
 
                                     </ul>
                                 </div>
                             </div>
-                            
+
                             <div class="price-footer">
                                 <div class="price-action">
                                     <!--<a class="btn" href="">Order Now</a>-->
@@ -345,24 +361,26 @@
                         <div class="price-item">
                             <div class="price-header">
                                 <div class="price-title">
-                                    <h2>Trimester 2</h2>
+                                    <h2>Power Platform Functional Consultan</h2>
                                 </div>
                                 <div class="price-prices">
-                                    <h2><span>February-May</span></h2>
+                                    <h2><span>PL-200</span></h2>
                                 </div>
                             </div>
                             <div class="price-body">
                                 <div class="price-description">
                                     <ul>
-                                        <li>Done</li>
+                                        <li><img src="img\power-platform-functional-consultant-600x600__1_ (1).png" height=200rem></li>
+                                        <li><a class="fcc-btn" href="https://www.credly.com/badges/4d840e8f-4749-46f3-9128-105f14cb79ed/linked_in_profile" target="_blank">Show credential</a></li><br>
+                                        <li><a class="fcc-btn2" href="https://learn.microsoft.com/en-us/certifications/power-platform-functional-consultant-associate/" target="_blank">About</a></li>
 
 
-                                        
-                                       
+
+
                                     </ul>
                                 </div>
                             </div>
-                            
+
                              <div class="price-footer">
                                 <div class="price-action">
                                    <!-- <a class="btn" href="">Order Now</a>-->
@@ -374,23 +392,23 @@
                         <div class="price-item featured-item">
                             <div class="price-header">
                                 <div class="price-title">
-                                    <h2>Trimester 3</h2>
+                                    <h2>Power Platform Solutions Architect Expert</h2>
                                 </div>
                                 <div class="price-prices">
-                                    <h2><span>June-October</span></h2>
+                                    <h2><span>Pl-600</span></h2>
                                 </div>
                             </div>
                             <div class="price-body">
                                 <div class="price-description">
                                     <ul>
-                                        <li>CRM systems and business analysis</li>
-                                        <li>POWER BI</li>
+                                        <li><img src="img\power-platform-solutions-architect-expert-600x600.png" height=200rem></li>
+                                        <li><a class="fcc-btn" href="https://www.credly.com/badges/76de96fc-c946-417c-a5a2-1ae43ac26f5c/linked_in_profile" target="_blank">Show credential</a></li><br>
+                                        <li><a class="fcc-btn2" href="https://learn.microsoft.com/en-us/certifications/power-platform-solution-architect-expert/" target="_blank">About</a></li>
 
-                                        
-                                       
+
                                     </ul>
                                 </div>
-                            </div>                           
+                            </div>
                             <div class="price-footer">
                                 <div class="price-action">
                                     <!--<a class="btn" href="">Order Now</a>-->
@@ -406,14 +424,14 @@
 
 
         <!-- Portfolio Start -->
-        
+
         <div class="portfolio" id="portfolio">
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                     <p>My Portfolio</p>
                     <h2>My Excellent Portfolio</h2>
                 </div>
-            
+
                 <div class="row">
                     <div class="col-12">
                         <ul id="portfolio-filter">
@@ -576,7 +594,7 @@
                                 <h4>Dynamics 365 Online</h4>
                                 <p>
                                     Customer Service
-                                    <br><h6>Malam-Team</h6></br>                                    
+                                    <br><h6>Malam-Team</h6></br>
                                 </p>
                                 <div class="team-social">
                                     <a class="btn" href=""><i class="fab fa-twitter"></i></a>
@@ -597,7 +615,7 @@
                                 <h4>Dynamics 365 Online</h4>
                                 <p>
                                     Customer Service
-                                    <br><h6>Malam-Team</h6></br>  
+                                    <br><h6>Malam-Team</h6></br>
                                 </p>
                                 <div class="team-social">
                                     <a class="btn" href=""><i class="fab fa-twitter"></i></a>
@@ -618,7 +636,7 @@
                                 <h4>Dynamics 365 Online</h4>
                                 <p>
                                     Customer Service
-                                    <br><h6>Malam-Team</h6></br>                                      
+                                    <br><h6>Malam-Team</h6></br>
                                 </p>
                                 <div class="team-social">
                                     <a class="btn" href=""><i class="fab fa-twitter"></i></a>

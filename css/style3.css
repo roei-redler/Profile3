@@ -1592,4 +1592,34 @@ a:focus {
         line-height: 16px;
         padding: 0 5px;
     }
+
+	}
+	.fcc-btn {
+  background-color: #4747d1;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-color: #4747d1;
+
+}
+.fcc-btn:hover {
+  background-color: #ffffff;
+  color: black;
+  border-style: solid;
+  
+}
+	.fcc-btn2 {
+  background-color: #ffbf52;
+  color: #000000;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-color: #4747d1;
+
+}
+.fcc-btn2:hover {
+  background-color: #ffffff;
+  color: black;
+  border-style: solid;
+  
+}
 }
