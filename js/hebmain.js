@@ -113,11 +113,11 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Show more"; 
+    btnText.innerHTML = "הצג עוד"; 
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Show less"; 
+    btnText.innerHTML = "הצג פחות"; 
     moreText.style.display = "inline";
   }
 
