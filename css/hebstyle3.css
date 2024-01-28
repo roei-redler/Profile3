@@ -2,40 +2,48 @@
 /********* General CSS *********/
 /*******************************/
 .Canvas {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-image: url('https://store-images.s-microsoft.com/image/apps.47429.13795821674373682.42a749e2-3ed9-43c6-88ec-0045278b4e49.44c95864-02a2-4f02-b16e-5b92d03974a1?h=464');
   background-size: cover;
   display: inline-block;
   vertical-align: middle;
 }
-.service {
-  width: 20px;
-  height: 20px;
+.voice {
+  width: 30px;
+  height: 30px;
+  background-image: url('https://store-images.s-microsoft.com/image/apps.12010.760c4fc2-5b25-4685-bb33-ad05119c0f57.4886ac2f-afa9-4e4c-a843-2f565a82a639.305a146e-af25-44ba-baad-bac2a04ba40a');
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+.service1 {
+  width: 30px;
+  height: 30px;
   background-image: url('https://ellipsesolutions.com/wp-content/uploads/2023/06/D365-Customer-Service-Icon.png');
   background-size: cover;
   display: inline-block;
   vertical-align: middle;
 }
 .portal {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-image: url('https://powerpages.microsoft.com/pictures/shared/social/social-default-image-powerpages.png');
   background-size: cover;
   display: inline-block;
   vertical-align: middle;
 }
 .marketing {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-image: url('https://www.microsoft.com/content/dam/microsoft/final/en-us/microsoft-brand/logo/Logo_CustomerInsights_AI.png');
   background-size: cover;
   display: inline-block;
   vertical-align: middle;
 }
 .sales {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-image: url('https://static.wixstatic.com/media/072bf0_517667a11d364b7691369c47792de87a~mv2.png/v1/fill/w_260,h_230,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/072bf0_517667a11d364b7691369c47792de87a~mv2.png');
   background-size: cover;
   display: inline-block;
