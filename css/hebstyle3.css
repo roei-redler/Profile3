@@ -1,6 +1,46 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+.Canvas {
+  width: 20px;
+  height: 20px;
+  background-image: url('https://store-images.s-microsoft.com/image/apps.47429.13795821674373682.42a749e2-3ed9-43c6-88ec-0045278b4e49.44c95864-02a2-4f02-b16e-5b92d03974a1?h=464');
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+.service {
+  width: 20px;
+  height: 20px;
+  background-image: url('https://ellipsesolutions.com/wp-content/uploads/2023/06/D365-Customer-Service-Icon.png');
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+.portal {
+  width: 20px;
+  height: 20px;
+  background-image: url('https://powerpages.microsoft.com/pictures/shared/social/social-default-image-powerpages.png');
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+.marketing {
+  width: 20px;
+  height: 20px;
+  background-image: url('https://www.microsoft.com/content/dam/microsoft/final/en-us/microsoft-brand/logo/Logo_CustomerInsights_AI.png');
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
+.sales {
+  width: 20px;
+  height: 20px;
+  background-image: url('https://static.wixstatic.com/media/072bf0_517667a11d364b7691369c47792de87a~mv2.png/v1/fill/w_260,h_230,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/072bf0_517667a11d364b7691369c47792de87a~mv2.png');
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+}
 body {
     color: #797979;
     background: #ffffff;
@@ -8,10 +48,10 @@ body {
 }
 
 h1,
-h2, 
-h3, 
+h2,
+h3,
 h4,
-h5, 
+h5,
 h6 {
     color: #414141;
 }
@@ -153,7 +193,7 @@ a:focus {
     font-weight: 700;
     letter-spacing: 2px;
     transition: .5s;
-    
+
 }
 
 .navbar .navbar-brand img {
@@ -177,16 +217,16 @@ a:focus {
         border-bottom: 1px dashed rgba(256, 256, 256, .2);
         z-index: 9;
     }
-    
+
     .navbar.nav-sticky {
         padding: 10px 60px;
         background: #ffffff !important;
     }
-    
+
     .navbar .navbar-brand {
         color: #ffffff;
     }
-    
+
     .navbar.nav-sticky .navbar-brand {
         color: #007bff;
     }
@@ -198,7 +238,7 @@ a:focus {
         font-size: 15px;
         font-weight: 500;
     }
-    
+
     .navbar-light.nav-sticky .navbar-nav .nav-link,
     .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
         color: #414141;
@@ -208,31 +248,31 @@ a:focus {
     .navbar-light .navbar-nav .nav-link.active {
         color: #111111;
     }
-    
+
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
         color: #007bff;
     }
 }
 
-@media (max-width: 991.98px) {   
+@media (max-width: 991.98px) {
     .navbar {
         padding: 15px;
         background: #ffffff !important;
     }
-    
+
     .navbar .navbar-brand {
         color: #007bff;
     }
-    
+
     .navbar .navbar-nav {
         margin-top: 15px;
     }
-    
+
     .navbar a.nav-link {
         padding: 5px;
     }
-    
+
     .navbar .dropdown-menu {
         box-shadow: none;
     }
@@ -335,24 +375,24 @@ a:focus {
     .hero {
         padding-top: 60px;
     }
-    
+
     .hero .hero-content {
         padding: 0 15px;
     }
-    
+
     .hero .hero-text p {
         font-size: 20px;
     }
-    
+
     .hero .hero-text h1 {
         font-size: 45px;
     }
-    
+
     .hero .hero-text h2 {
         font-size: 25px;
         height: 25px;
     }
-    
+
     .hero .hero-btn .btn {
         padding: 12px 30px;
         letter-spacing: 1px;
@@ -364,27 +404,27 @@ a:focus {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    
+
     .hero,
     .hero .hero-text,
     .hero .hero-btn {
         width: 100%;
         text-align: center;
     }
-    
+
     .hero .hero-text p {
         font-size: 18px;
     }
-    
+
     .hero .hero-text h1 {
         font-size: 35px;
     }
-    
+
     .hero .hero-text h2 {
         font-size: 22px;
         height: 22px;
     }
-    
+
     .hero .hero-btn .btn {
         padding: 10px 15px;
         letter-spacing: 1px;
@@ -395,16 +435,16 @@ a:focus {
     .hero .hero-text p {
         font-size: 16px;
     }
-    
+
     .hero .hero-text h1 {
         font-size: 30px;
     }
-    
+
     .hero .hero-text h2 {
         font-size: 18px;
         height: 18px;
     }
-    
+
     .hero .hero-btn .btn {
         padding: 8px 10px;
         letter-spacing: 0;
@@ -686,27 +726,27 @@ a:focus {
         width: 100%;
         padding-left: 38px;
     }
-    
+
     .experience .timeline .timeline-item.left {
         padding-right: 0;
     }
-    
+
     .experience .timeline .timeline-item.right {
         left: 0%;
         padding-left: 38px;
     }
 
-    .experience .timeline .timeline-item.left::after, 
+    .experience .timeline .timeline-item.left::after,
     .experience .timeline .timeline-item.right::after {
         left: 0;
     }
-    
+
     .experience .timeline .timeline-item.left::before,
     .experience .timeline .timeline-item.right::before {
         left: 18px;
         border-color: transparent #dddddd transparent transparent;
     }
-    
+
     .experience .timeline .timeline-item.left .timeline-date,
     .experience .timeline .timeline-item.right .timeline-date {
         position: relative;
@@ -716,7 +756,7 @@ a:focus {
         text-align: right;
         margin-bottom: 10px;
     }
-    
+
     .experience .timeline .timeline-item.left .timeline-text,
     .experience .timeline .timeline-item.right .timeline-text {
         border-right: none;
@@ -798,7 +838,7 @@ a:focus {
         font-size: 16px;
         margin-bottom: 5px;
     }
-    
+
     .service .service-text p {
         font-size: 14px;
     }
@@ -862,8 +902,8 @@ a:focus {
 
 .portfolio .portfolio-img img {
     position: relative;
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     transform: scale(1.1);
     transition: .5s;
@@ -1113,7 +1153,7 @@ a:focus {
     position: relative;
     width: 50%;
     overflow: hidden;
-    
+
 }
 
 .team .team-img img {
@@ -1195,7 +1235,7 @@ a:focus {
     .team .team-text {
         padding: 0 15px;
     }
-    
+
     .team .team-text h2 {
         font-size: 16px;
         margin-bottom: 0;
@@ -1380,7 +1420,7 @@ a:focus {
     .contact .container-fluid {
         background: none;
     }
-    
+
     .contact .contact-form {
         padding: 90px 0;
     }
@@ -1606,7 +1646,7 @@ a:focus {
   background-color: #ffffff;
   color: black;
   border-style: solid;
-  
+
 }
 	.fcc-btn2 {
   background-color: #ffbf52;
@@ -1620,7 +1660,7 @@ a:focus {
   background-color: #ffffff;
   color: black;
   border-style: solid;
-  
+
 }
 
 }
